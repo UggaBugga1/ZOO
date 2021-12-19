@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/png" href="http://www.wzd.cz/zoo/EU/BG/sofia_zoo/files/sofia_zoo_logo01a.gif">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="centered">
+    <ul class="nav-bar">
+        <li class=nav-bar-item><a href="home.html">Home</a></li>
+        <li class=nav-bar-item><a href="gallery.html">Gallery</a></li>
+        <li class=nav-bar-item><a href="survey.html">Survey</a></li>
+    </ul>
+        <p class="gallery">Снимки:</p>
+    <div class="images">
+        <script>
+            function light(sw) {
+              var pic;
+              if (sw == 0) {
+                pic = "https://mapio.net/images-p/46596367.jpg"
+              } else {
+                pic = "https://i2.offnews.bg/events/2020/11/06/739769/php3u1xrg.jpg"
+              }
+              document.getElementById('myImage').src = pic;
+            }
+            </script>
+            
+            <img id="myImage" src="https://mapio.net/images-p/46596367.jpg" width="300" height="200">
+
+            <p>
+                <button type="button" onclick="light(1)">Мечка</button>
+                <button type="button" onclick="light(0)">Лъв</button>
+            </p>
+    </div>
+<div class="videos">
+    <p class="gallery">Видео:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/B9tU5TSU1PA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</iframe>
+</div>
+</br>
+<div>
+<p class="map"> Местоположение на Зоопарк София:</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.1653643704744!2d23.32811621772282!3d42.657851011965825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa84441b39f33f%3A0x9badd1ae8d45e216!2sZooparka!5e0!3m2!1sen!2sbg!4v1638095833593!5m2!1sen!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<div>
+    <p class="map">Работно време:</p>
+    <table class="tables">
+        <tr>
+            <th>Вход</th>
+            <th>Администрация</th>
+        </tr>
+        <tr>
+            <td>Всеки ден от 8:30 до 16:30</td>
+            <td>Всеки ден от 8:30 до 16:30</td>
+        </tr>
+        </table>
+</div>
+</div>
+</body>
+</html>
